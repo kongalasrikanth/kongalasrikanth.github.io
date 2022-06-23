@@ -1,0 +1,135 @@
+@media screen and (max-width: 767px) {
+
+  .headsubnav,
+  .new {
+    display: none;
+  }
+
+  .header {
+    background-size: contain;
+    background-color: #e0e3e8;
+  }
+
+  .headercontent {
+    padding: 0;
+    width: auto;
+    padding-top: 120px;
+    padding-left: 20px;
+  }
+
+  .headercontent .newheading br {
+    display: none;
+  }
+
+  .aem-Grid.newsletter {
+    overflow: hidden;
+  }
+
+  .headercontent button {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 40px;
+  }
+
+  .aem-Grid.products {
+    width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+
+  .solutions {
+    width: auto;
+  }
+
+  .aem-Grid.products .aem-GridColumn {
+    margin-bottom: 40px;
+  }
+
+  .context {
+    padding-bottom: 60px;
+  }
+
+  .subhead.srow {
+    display: none;
+  }
+
+  .aem-Grid.lastsection {
+    width: 100%;
+    margin: 0;
+  }
+
+  .aem-Grid.footsection .item {
+    margin-bottom: 40px;
+  }
+
+  .join p {
+    padding-left: 0;
+  }
+
+  .aemfooter,
+  hr {
+    width: 100%;
+    margin: 0
+  }
+
+  .aemfooter.last {
+    padding-top: 5%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: left;
+  }
+
+  .aem-Grid.products .productimage {
+    height: 260px;
+  }
+
+  .headnav ul li:first-child,
+  .headnav ul li:nth-child(2),
+  .headnav ul li:last-child {
+    display: none;
+  }
+
+  .headnav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .headnav ul li.search {
+    width: 100%;
+    text-align: left;
+    text-transform: lowercase;
+  }
+
+  .headnav ul .fa-magnifying-glass {
+    position: relative;
+    top: -4px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .responsive_img {
+    height: 481px !important;
+  }
+
+  .aem-Grid.products .productimage img {
+    width: 173px !important;
+  }
+
+  .aem-Grid.newsletter {
+    width: auto !important;
+  }
+
+  button {
+    width: 140px !important;
+  }
+
+  .contimg {
+    height: inherit !important;
+  }
+}
